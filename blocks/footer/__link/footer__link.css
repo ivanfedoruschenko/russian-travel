@@ -1,0 +1,22 @@
+.footer__link{
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__link:nth-of-type(2n){
+  margin: 0 3% 0;
+}
+
+@media screen and (max-width: 680px){
+  .footer__link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .footer__link:nth-of-type(2n){
+    margin: 32px 0;
+  }
+}

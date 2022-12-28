@@ -1,0 +1,10 @@
+.description{
+  margin: 56px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 984px;
+  min-width: 320px;
+}
+

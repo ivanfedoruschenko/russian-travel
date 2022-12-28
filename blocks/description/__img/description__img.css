@@ -1,0 +1,13 @@
+.description__img{
+  width: 100%;
+  max-width: 984px;
+  min-width: 320px;
+  height: auto;
+  margin: 7% 0 0;
+}
+
+@media screen and (max-width:320px){
+  .description__img{
+    margin:40px 0 0;
+  }
+}

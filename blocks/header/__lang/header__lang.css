@@ -1,0 +1,11 @@
+.header__lang{
+  display: flex;
+  align-items: center;
+  margin: 18px 0 6px;
+}
+
+@media screen and (max-width:320px){
+  .header__lang {
+    margin: 14px 0 8px;
+  }
+}

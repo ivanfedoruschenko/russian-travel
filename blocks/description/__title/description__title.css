@@ -1,0 +1,25 @@
+.description__title{
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  max-width:720px;
+  min-width: 288px;
+  margin: 0 0 32px;
+}
+
+@media screen and (max-width: 690px){
+  .description__title_{
+    font-size: 60px;
+    line-height: 64px;
+    margin: 0 24px;
+    max-width: min-content;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .description__title{
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 16px;
+  }
+}
