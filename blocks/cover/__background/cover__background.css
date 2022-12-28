@@ -1,15 +1,17 @@
 .cover__background{
+  position: absolute;
   background-image: url("../../../images/cover__background.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   display: flex;
-  height: calc(100vw/2);
   flex-direction: column;
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  position: relative;
+  max-width: 1184px;
 }
 
 .cover__background:after{

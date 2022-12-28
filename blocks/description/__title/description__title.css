@@ -8,10 +8,10 @@
 }
 
 @media screen and (max-width: 690px){
-  .description__title_{
+  .description__title{
     font-size: 60px;
     line-height: 64px;
-    margin: 0 24px;
+    margin: 0 0 16px;
     max-width: min-content;
   }
 }
