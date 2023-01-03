@@ -1,20 +1,24 @@
 .place__link-heading{
-  grid-area: heading;
+  grid-area: link;
   color:#AAAAAA;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  align-self: end;
-  margin: 0;
+  margin:0 0 32px;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  align-self: end;
 }
 
 @media screen and (max-width: 768px){
   .place__link-heading{
-    font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    padding-left: 15px;
   }
 }
 
+@media screen and (max-width: 320px){
+  .place__link-heading {
+    margin-left: 15px;
+  }
+}

@@ -1,21 +1,29 @@
 .place__img{
+  display: block;
   grid-area: img;
-  width: 100%;
-  padding-bottom:100%;
   background-size: contain;
   background-repeat: no-repeat;
+  aspect-ratio: 1/1;
   max-width: 460px;
-  max-height: 460px;
+  width: 100%;
+  margin: 0;
+}
+@media screen and (max-width: 1024px){
+  .place__img{
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 768px){
   .place__img{
-    margin-left: 15px;
+    width: 340px;
+    max-width: 340px;
   }
 }
 
 @media screen and (max-width: 350px){
   .place__img{
+    max-width: 320px;
     margin-left: 0;
   }
 }

@@ -9,16 +9,15 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 768px){
   .description__caption{
-    padding-left: 15px;
-    margin-left: 15px;
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 320px){
   .description__caption{
-    padding-left: 15px;
-    margin-left: 0;
+    width: 90%;
   }
 }

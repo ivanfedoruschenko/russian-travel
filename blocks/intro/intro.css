@@ -3,7 +3,21 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 984px;
-  min-width: 320px;
+  min-width: 288px;
   width: 90%;
   margin: 92px auto 0;
+}
+
+@media screen and (max-width: 768px){
+  .intro{
+    width: 95%;
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .intro{
+    width: 90%;
+    margin: 64px auto 0;
+  }
 }

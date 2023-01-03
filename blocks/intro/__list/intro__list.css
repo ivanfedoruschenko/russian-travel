@@ -1,7 +1,7 @@
 .intro__list{
   list-style: none;
   margin: 33px 0 0;
-  padding: 0 0 0 15px;
+  padding: 0;
   color: white;
   font-weight: 700;
   font-size: 12px;
@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 1024px){
   .intro__list{
-    margin-left: 15px;
     padding-right: 15px;
   }
 }
@@ -18,6 +17,5 @@
 @media screen and (max-width: 320px){
   .intro__list{
     margin-left: 0;
-    padding-right: 15px;
   }
 }

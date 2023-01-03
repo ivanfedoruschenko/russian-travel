@@ -4,20 +4,29 @@
   line-height: 163%;
   color: white;
   grid-area: text;
-  max-width: 484px;
+  width: 100%;
   margin: 0;
 }
 
-.place__text:nth-child(even){
-  grid-area: text2;
+.place__text:nth-child(even) {
+  margin-top: 27px;
 }
+
 
 @media screen and (max-width: 768px) {
   .place__text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    padding-left: 15px;
-    padding-right: 15px;
   }
+  .place__text:nth-child(even) {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

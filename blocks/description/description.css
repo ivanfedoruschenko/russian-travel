@@ -4,8 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   max-width: 984px;
   min-width: 320px;
 }
 
+@media screen and (max-width: 1024px){
+  .description{
+    margin: 48px auto 0;
+  }
+}

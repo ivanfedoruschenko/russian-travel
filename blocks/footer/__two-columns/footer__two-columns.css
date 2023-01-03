@@ -13,3 +13,8 @@
   }
 }
 
+@media screen and (max-width: 320px){
+  .footer__two-columns{
+    margin: 64px 0 48px 0;
+  }
+}

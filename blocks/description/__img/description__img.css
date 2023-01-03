@@ -3,7 +3,14 @@
   max-width: 984px;
   min-width: 320px;
   height: auto;
-  margin: 7% 0 0;
+  margin: 64px 0 0;
+}
+
+@media screen and (max-width:1024px){
+  .description__img{
+    margin:56px 0 0;
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width:320px){
