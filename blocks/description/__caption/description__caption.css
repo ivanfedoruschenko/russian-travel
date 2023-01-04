@@ -1,6 +1,7 @@
 .description__caption{
   margin: 8px auto 0;
   width: 100%;
+  max-width: 984px;
   color: white;
   font-size: 10px;
   font-weight: 400;
@@ -9,6 +10,11 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1024px){
+  .description__caption{
+    max-width: 928px;
+  }
+}
 
 @media screen and (max-width: 768px){
   .description__caption{

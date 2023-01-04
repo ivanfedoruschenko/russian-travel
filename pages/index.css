@@ -26,6 +26,7 @@
 @import url("../blocks/photo-grid/__img/photo-grid__img.css");
 @import url("../blocks/place/place.css");
 @import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__title/_nowrap/place__title_nowrap.css");
 @import url("../blocks/place/__img/place__img.css");
 @import url("../blocks/place/__link-heading/place__link-heading.css");
 @import url("../blocks/place/__link/place__link.css");
@@ -36,8 +37,6 @@
 @import url("../blocks/place/__img/_picture/place__img_picture_altay.css");
 @import url("../blocks/place/__img/_picture/place__img_picture_baykal.css");
 @import url("../blocks/place/__img/_picture/place__img_picture_kareliya.css");
-@import url("../blocks/place/_margin/place_margin_first.css");
-@import url("../blocks/place/_margin/place_margin_other.css");
 @import url("../blocks/blackout/blackout.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__background/cover__background.css");

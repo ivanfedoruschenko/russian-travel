@@ -5,16 +5,31 @@
   margin: 92px 0 24px;
 }
 
+@media screen and (max-width: 1024px){
+  .footer__two-columns{
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer__two-columns{
+    margin: 88px 0 24px 0;
+    align-items: start;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 680px){
   .footer__two-columns{
     flex-direction: column;
     margin: 92px 0 24px 0;
     align-items: start;
+    justify-content: start;
   }
 }
 
 @media screen and (max-width: 320px){
   .footer__two-columns{
-    margin: 64px 0 48px 0;
+    margin: 66px 0 0;
   }
 }
